@@ -26,10 +26,15 @@ How the CI Works:-
 
 Project Structure:-
 mini-ci-html/
+
 ├── index.html
+
 ├── README.md
+
 └── .github/
+
     └── workflows/
+    
         └── html-ci.yml
 
 How to Use:-
