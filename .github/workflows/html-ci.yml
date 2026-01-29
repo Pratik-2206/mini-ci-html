@@ -1,1 +1,23 @@
+name: HTML Mini CI Trigger
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  html-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Install HTML Validator
+        run: npm install -g html-validator-cli
+
+      - name: Validate HTML
+        run: |
+          echo "Running HTML validation..."
+          html-validator --file=index.html --verbose
 
