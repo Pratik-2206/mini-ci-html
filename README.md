@@ -28,14 +28,10 @@ Project Structure:-
 mini-ci-html/
 
 ├── index.html
-
 ├── README.md
-
 └── .github/
-
-    └── workflows/
-    
-        └── html-ci.yml
+      └── workflows/
+          └── html-ci.yml
 
 How to Use:-
 -Edit the index.html file
